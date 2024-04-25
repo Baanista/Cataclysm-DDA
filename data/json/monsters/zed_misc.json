@@ -1390,4 +1390,14 @@
     "armor": { "bash": 5, "cut": 5, "bullet": 1, "electric": 1 },
     "//1": "The torn fursuit offers slightly more protection."
   }
+  {
+    "id": "mon_slime_infused_zombie"
+    "type": "MONSTER",
+    "name": { "str": "slime infused zombie" },
+    "description": "a slimy substance is infused with this zombie. Wonder if it will fall of if it dies",
+    "copy-from": "mon_zombie",
+    "speed": 40,
+    "color": green,
+    "death_function": { "effect": { "id": "death_slime_infused_zombie", "hit_self": true } },
+  }
 ]
